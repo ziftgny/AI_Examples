@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 HOME = os.getcwd()
 SOURCE_VIDEO_PATH = HOME+"\\vehicles.mp4"
-model = YOLO("yolov8s.pt")
+model = YOLO("yolov8l.pt")
 # dict maping class_id to class_name
 CLASS_NAMES_DICT = model.model.names
 
